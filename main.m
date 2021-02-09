@@ -1,16 +1,3 @@
-clear;
-display('           ');
-display('           ');
-display('IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 9, NO. 9, SEPTEMBER 2000');
-display('           ');
-display('Adaptive Wavelet Thresholding for Image Denoising and Compression');
-display('           ');
-display('S. Grace Chang, Student Member, IEEE, Bin Yu, Senior Member, IEEE, and Martin Vetterli, Fellow, IEEE');
-
-display('           ');
-display('----- liujiabin   ');
-
-
 f=imread('lena512.bmp');
 f = double(f);
 figure, imshow(f,[]);title('original image');
